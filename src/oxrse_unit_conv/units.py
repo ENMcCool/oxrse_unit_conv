@@ -23,6 +23,10 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
 lb = pound
 
+# stones
+
+stones = Unit(name = 'stones', abbr = 'st', si = kilogram, to_si_fun=lambda n: n*0.157473)
+st = stones
 # ampere
 
 # kelvin
